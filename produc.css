@@ -1,0 +1,48 @@
+/* NAVBAAR*/
+.navbar{
+    height: 80px;
+    padding: 10PX;
+    background-color: white;
+}
+
+/* --- Ajuste general de las tarjetas --- */
+.card {
+  transform: scale(0.9); /* Reduce tamaño de la tarjeta */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(0.95); /* Efecto de acercamiento al pasar el mouse */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Imágenes del mismo tamaño --- */
+.card-img-top {
+  height: 350px;          
+  object-fit: cover;      
+}
+.card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.card-text {
+  font-size: 0.95rem;
+}
+.btn-primary {
+  background-color: #ff6600; /* color naranja */
+  border-color: #ff6600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-primary:hover {
+  background-color: #cc5200;
+  border-color: #cc5200;
+  transform: scale(1.05);
+}
+/*TITULO*/
+.ours h3 {
+  text-align: center;
+  margin: 40px 0;
+  color: #c63662;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
